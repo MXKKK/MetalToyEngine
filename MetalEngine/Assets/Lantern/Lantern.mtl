@@ -1,0 +1,31 @@
+# Blender MTL File: 'Lantern_01_4k.blend'
+# Material Count: 2
+
+newmtl Lantern_01_brass
+Ns 116.964327
+Ka 1.000000 1.000000 1.000000
+Kd 0.321569 0.321569 0.321569
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Lantern-normal
+map_Kd Lantern-color
+map_roughness Lantern-roughness
+map_metallic Lantern-metallic
+
+newmtl Lantern_01_glass
+Ns 116.964327
+Ka 1.000000 1.000000 1.000000
+Kd 0.321569 0.321569 0.321569
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_bump Lantern-normal
+map_Kd Lantern-color
+map_roughness Lantern-roughness
+map_d Lantern-opacity
+map_metallic Lantern-metallic
