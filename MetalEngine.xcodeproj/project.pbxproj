@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F61DFA7F27C0F8D4005A9350 /* skeletonWave.usda in Resources */ = {isa = PBXBuildFile; fileRef = F61DFA7E27C0F8D4005A9350 /* skeletonWave.usda */; };
+		F63B405D27A9BCF90000D9A5 /* RSM.metal in Sources */ = {isa = PBXBuildFile; fileRef = F63B405C27A9BCF90000D9A5 /* RSM.metal */; };
+		F63B406727AB93320000D9A5 /* picture8.png in Resources */ = {isa = PBXBuildFile; fileRef = F63B406127AB93320000D9A5 /* picture8.png */; };
+		F63B406827AB93320000D9A5 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = F63B406227AB93320000D9A5 /* wood.png */; };
+		F63B406927AB93320000D9A5 /* wood5.png in Resources */ = {isa = PBXBuildFile; fileRef = F63B406327AB93320000D9A5 /* wood5.png */; };
+		F63B406A27AB93320000D9A5 /* leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = F63B406427AB93320000D9A5 /* leaf.png */; };
+		F63B406B27AB93320000D9A5 /* fireplace_room.obj in Resources */ = {isa = PBXBuildFile; fileRef = F63B406527AB93320000D9A5 /* fireplace_room.obj */; };
+		F63B406C27AB93320000D9A5 /* fireplace_room.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F63B406627AB93320000D9A5 /* fireplace_room.mtl */; };
+		F63B407627AB95D60000D9A5 /* salle_de_bain.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F63B406F27AB95D60000D9A5 /* salle_de_bain.mtl */; };
+		F63B407727AB95D60000D9A5 /* WoodPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = F63B407127AB95D60000D9A5 /* WoodPanel.png */; };
+		F63B407827AB95D60000D9A5 /* Label_BaseColor.png in Resources */ = {isa = PBXBuildFile; fileRef = F63B407227AB95D60000D9A5 /* Label_BaseColor.png */; };
+		F63B407927AB95D60000D9A5 /* WoodFloor_BaseColor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F63B407327AB95D60000D9A5 /* WoodFloor_BaseColor.jpg */; };
+		F63B407A27AB95D60000D9A5 /* Wood_BaseColor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F63B407427AB95D60000D9A5 /* Wood_BaseColor.jpg */; };
+		F63B407B27AB95D60000D9A5 /* salle_de_bain.obj in Resources */ = {isa = PBXBuildFile; fileRef = F63B407527AB95D60000D9A5 /* salle_de_bain.obj */; };
+		F63B409527AB9B550000D9A5 /* CornellBox-Empty-White.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F63B407E27AB9B550000D9A5 /* CornellBox-Empty-White.mtl */; };
+		F63B409627AB9B550000D9A5 /* CornellBox-Mirror.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F63B407F27AB9B550000D9A5 /* CornellBox-Mirror.mtl */; };
+		F63B409727AB9B550000D9A5 /* water.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F63B408027AB9B550000D9A5 /* water.mtl */; };
+		F63B409827AB9B550000D9A5 /* CornellBox-Empty-Squashed.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F63B408127AB9B550000D9A5 /* CornellBox-Empty-Squashed.mtl */; };
+		F63B409927AB9B550000D9A5 /* CornellBox-Glossy.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F63B408227AB9B550000D9A5 /* CornellBox-Glossy.mtl */; };
+		F63B409A27AB9B550000D9A5 /* copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = F63B408327AB9B550000D9A5 /* copyright.txt */; };
+		F63B409B27AB9B550000D9A5 /* CornellBox-Empty-RG.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F63B408427AB9B550000D9A5 /* CornellBox-Empty-RG.mtl */; };
+		F63B409C27AB9B550000D9A5 /* CornellBox-Water.obj in Resources */ = {isa = PBXBuildFile; fileRef = F63B408527AB9B550000D9A5 /* CornellBox-Water.obj */; };
+		F63B409D27AB9B550000D9A5 /* CornellBox-Glossy-Floor.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F63B408627AB9B550000D9A5 /* CornellBox-Glossy-Floor.mtl */; };
+		F63B409E27AB9B550000D9A5 /* CornellBox-Sphere.obj in Resources */ = {isa = PBXBuildFile; fileRef = F63B408727AB9B550000D9A5 /* CornellBox-Sphere.obj */; };
+		F63B409F27AB9B550000D9A5 /* CornellBox-Original.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F63B408827AB9B550000D9A5 /* CornellBox-Original.mtl */; };
+		F63B40A027AB9B550000D9A5 /* CornellBox-Empty-CO.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F63B408927AB9B550000D9A5 /* CornellBox-Empty-CO.mtl */; };
+		F63B40A127AB9B550000D9A5 /* CornellBox-Original.obj in Resources */ = {isa = PBXBuildFile; fileRef = F63B408A27AB9B550000D9A5 /* CornellBox-Original.obj */; };
+		F63B40A227AB9B550000D9A5 /* CornellBox-Sphere.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F63B408B27AB9B550000D9A5 /* CornellBox-Sphere.mtl */; };
+		F63B40A327AB9B550000D9A5 /* CornellBox-Empty-CO.obj in Resources */ = {isa = PBXBuildFile; fileRef = F63B408C27AB9B550000D9A5 /* CornellBox-Empty-CO.obj */; };
+		F63B40A427AB9B550000D9A5 /* CornellBox-Empty-Squashed.obj in Resources */ = {isa = PBXBuildFile; fileRef = F63B408D27AB9B550000D9A5 /* CornellBox-Empty-Squashed.obj */; };
+		F63B40A527AB9B550000D9A5 /* water.obj in Resources */ = {isa = PBXBuildFile; fileRef = F63B408E27AB9B550000D9A5 /* water.obj */; };
+		F63B40A627AB9B550000D9A5 /* CornellBox-Mirror.obj in Resources */ = {isa = PBXBuildFile; fileRef = F63B408F27AB9B550000D9A5 /* CornellBox-Mirror.obj */; };
+		F63B40A727AB9B550000D9A5 /* CornellBox-Empty-White.obj in Resources */ = {isa = PBXBuildFile; fileRef = F63B409027AB9B550000D9A5 /* CornellBox-Empty-White.obj */; };
+		F63B40A827AB9B550000D9A5 /* CornellBox-Glossy.obj in Resources */ = {isa = PBXBuildFile; fileRef = F63B409127AB9B550000D9A5 /* CornellBox-Glossy.obj */; };
+		F63B40A927AB9B550000D9A5 /* CornellBox-Glossy-Floor.obj in Resources */ = {isa = PBXBuildFile; fileRef = F63B409227AB9B550000D9A5 /* CornellBox-Glossy-Floor.obj */; };
+		F63B40AA27AB9B550000D9A5 /* CornellBox-Water.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F63B409327AB9B550000D9A5 /* CornellBox-Water.mtl */; };
+		F63B40AB27AB9B550000D9A5 /* CornellBox-Empty-RG.obj in Resources */ = {isa = PBXBuildFile; fileRef = F63B409427AB9B550000D9A5 /* CornellBox-Empty-RG.obj */; };
+		F64FF4142741A91800C430E5 /* Jogging.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F64FF4132741A91800C430E5 /* Jogging.usdz */; };
+		F65DA6FF279A1131007BFF2A /* round_wooden_table_01_metal_4k.exr in Resources */ = {isa = PBXBuildFile; fileRef = F65DA6F6279A1131007BFF2A /* round_wooden_table_01_metal_4k.exr */; };
+		F65DA700279A1131007BFF2A /* round_wooden_table_01_metal_4k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F65DA6F7279A1131007BFF2A /* round_wooden_table_01_metal_4k.jpg */; };
+		F65DA701279A1131007BFF2A /* round_wooden_table_01_rough_4k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F65DA6F8279A1131007BFF2A /* round_wooden_table_01_rough_4k.jpg */; };
+		F65DA702279A1131007BFF2A /* round_wooden_table_01_diff_4k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F65DA6F9279A1131007BFF2A /* round_wooden_table_01_diff_4k.jpg */; };
+		F65DA703279A1131007BFF2A /* round_wooden_table_01_nor_dx_4k.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F65DA6FA279A1131007BFF2A /* round_wooden_table_01_nor_dx_4k.jpg */; };
+		F65DA704279A1131007BFF2A /* round_wooden_table_01_nor_gl_4k.exr in Resources */ = {isa = PBXBuildFile; fileRef = F65DA6FB279A1131007BFF2A /* round_wooden_table_01_nor_gl_4k.exr */; };
+		F65DA705279A1131007BFF2A /* round_wooden_table_01_4k.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F65DA6FC279A1131007BFF2A /* round_wooden_table_01_4k.mtl */; };
+		F65DA706279A1131007BFF2A /* round_wooden_table_01_4k.blend in Resources */ = {isa = PBXBuildFile; fileRef = F65DA6FD279A1131007BFF2A /* round_wooden_table_01_4k.blend */; };
+		F65DA707279A1131007BFF2A /* Table.obj in Resources */ = {isa = PBXBuildFile; fileRef = F65DA6FE279A1131007BFF2A /* Table.obj */; };
+		F66D5D52274A9F0100EE2DBD /* Terrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D5D51274A9F0100EE2DBD /* Terrains.swift */; };
+		F66D5D55274ABB6E00EE2DBD /* Terrains.metal in Sources */ = {isa = PBXBuildFile; fileRef = F66D5D54274ABB6E00EE2DBD /* Terrains.metal */; };
+		F66D5D5C27508AEA00EE2DBD /* Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66D5D5B27508AEA00EE2DBD /* Emitter.swift */; };
+		F68E51E0273D2B9B00CBF302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E51DF273D2B9B00CBF302 /* ViewController.swift */; };
+		F68E51E2273D2BA400CBF302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68E51E1273D2BA400CBF302 /* Assets.xcassets */; };
+		F68E51E5273D2BA400CBF302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68E51E3273D2BA400CBF302 /* Main.storyboard */; };
+		F68E51EF273D2FB600CBF302 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E51EE273D2FB600CBF302 /* Renderer.swift */; };
+		F68E5200273D419E00CBF302 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E51FF273D419E00CBF302 /* GameView.swift */; };
+		F68E5203273D41CD00CBF302 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E5202273D41CD00CBF302 /* ViewControllerExtension.swift */; };
+		F68E5206273D41EC00CBF302 /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E5205273D41EB00CBF302 /* InputController.swift */; };
+		F68E5209273D420C00CBF302 /* LocalClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E5208273D420C00CBF302 /* LocalClasses.swift */; };
+		F68E520D273D42CA00CBF302 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E520C273D42CA00CBF302 /* Node.swift */; };
+		F68E5212273D43B500CBF302 /* MathLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E5211273D43B500CBF302 /* MathLibrary.swift */; };
+		F68E5216273D4F8300CBF302 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E5215273D4F8300CBF302 /* Camera.swift */; };
+		F68E5219273D552900CBF302 /* Texturable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E5218273D552900CBF302 /* Texturable.swift */; };
+		F68E521C273D57EB00CBF302 /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E521B273D57EB00CBF302 /* Renderable.swift */; };
+		F68E521F273D59B200CBF302 /* Submesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E521E273D59B200CBF302 /* Submesh.swift */; };
+		F68E5222273D5A5E00CBF302 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68E5221273D5A5E00CBF302 /* Light.swift */; };
+		F6932BDD2754CA3D00147982 /* Particles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6932BDC2754CA3D00147982 /* Particles.swift */; };
+		F6932BE02754ED2B00147982 /* Particles.metal in Sources */ = {isa = PBXBuildFile; fileRef = F6932BDF2754ED2B00147982 /* Particles.metal */; };
+		F6932BE62755519500147982 /* Lantern.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F6932BE42755519500147982 /* Lantern.mtl */; };
+		F6932BE72755519500147982 /* Lantern.obj in Resources */ = {isa = PBXBuildFile; fileRef = F6932BE52755519500147982 /* Lantern.obj */; };
+		F6932C722756607E00147982 /* SSR.metal in Sources */ = {isa = PBXBuildFile; fileRef = F6932C712756607D00147982 /* SSR.metal */; };
+		F6932C752757502D00147982 /* ScreenSpaceRayTracing.metal in Sources */ = {isa = PBXBuildFile; fileRef = F6932C742757502D00147982 /* ScreenSpaceRayTracing.metal */; };
+		F6932C782757661500147982 /* ssrRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6932C772757661500147982 /* ssrRenderer.swift */; };
+		F69BC169279DC84F003D9950 /* FXAA.metal in Sources */ = {isa = PBXBuildFile; fileRef = F69BC168279DC84F003D9950 /* FXAA.metal */; };
+		F69BC16C279EDDB4003D9950 /* endPost.metal in Sources */ = {isa = PBXBuildFile; fileRef = F69BC16B279EDDB4003D9950 /* endPost.metal */; };
+		F69BC16F27A069FE003D9950 /* HiZ.metal in Sources */ = {isa = PBXBuildFile; fileRef = F69BC16E27A069FE003D9950 /* HiZ.metal */; };
+		F6A0D5DB27424CC000A00615 /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D5DA27424CC000A00615 /* Shadows.swift */; };
+		F6A0D5DE27428C2B00A00615 /* Shadow.metal in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D5DD27428C2B00A00615 /* Shadow.metal */; };
+		F6A0D5EA2742DF7900A00615 /* large-plane.obj in Resources */ = {isa = PBXBuildFile; fileRef = F6A0D5E62742DF7900A00615 /* large-plane.obj */; };
+		F6A0D5EB2742DF7900A00615 /* ground.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F6A0D5E72742DF7900A00615 /* ground.mtl */; };
+		F6A0D5EC2742DF7900A00615 /* ground.obj in Resources */ = {isa = PBXBuildFile; fileRef = F6A0D5E82742DF7900A00615 /* ground.obj */; };
+		F6A0D5ED2742DF7900A00615 /* large-plane.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F6A0D5E92742DF7900A00615 /* large-plane.mtl */; };
+		F6A0D5F02744E8A000A00615 /* Deffered.metal in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D5EF2744E8A000A00615 /* Deffered.metal */; };
+		F6A0D5F3274560CF00A00615 /* Composition.metal in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D5F2274560CF00A00615 /* Composition.metal */; };
+		F6A0D5F62746251200A00615 /* Skybox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D5F52746251200A00615 /* Skybox.swift */; };
+		F6A0D5F927463B4000A00615 /* Skybox.metal in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D5F827463B4000A00615 /* Skybox.metal */; };
+		F6A0D60127468E0F00A00615 /* irradiance-6.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A0D60027468E0E00A00615 /* irradiance-6.png */; };
+		F6A0D604274690D000A00615 /* IBL.metal in Sources */ = {isa = PBXBuildFile; fileRef = F6A0D603274690D000A00615 /* IBL.metal */; };
+		F6D97318273E9D35000CBF9C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D97317273E9D35000CBF9C /* Model.swift */; };
+		F6D9731B273E9E68000CBF9C /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D9731A273E9E68000CBF9C /* Mesh.swift */; };
+		F6D97321273EA162000CBF9C /* DebugLight.metal in Sources */ = {isa = PBXBuildFile; fileRef = F6D97320273EA162000CBF9C /* DebugLight.metal */; };
+		F6D97325273EA286000CBF9C /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D97324273EA286000CBF9C /* Animation.swift */; };
+		F6D97329273EA5A3000CBF9C /* AnimationClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D97328273EA5A3000CBF9C /* AnimationClip.swift */; };
+		F6D9732C273EA80F000CBF9C /* Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D9732B273EA80F000CBF9C /* Skeleton.swift */; };
+		F6D9732F273EAB98000CBF9C /* AnimationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D9732E273EAB98000CBF9C /* AnimationComponent.swift */; };
+		F6D97332273EBAA8000CBF9C /* TransformComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D97331273EBAA8000CBF9C /* TransformComponent.swift */; };
+		F6D97340273FDCEB000CBF9C /* VertexDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D9733F273FDCEB000CBF9C /* VertexDescriptor.swift */; };
+		F6D97348273FF51B000CBF9C /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D97347273FF51B000CBF9C /* Scene.swift */; };
+		F6D9734F2740243C000CBF9C /* racing-car.mtl in Resources */ = {isa = PBXBuildFile; fileRef = F6D9734D2740243C000CBF9C /* racing-car.mtl */; };
+		F6D973502740243C000CBF9C /* racing-car.obj in Resources */ = {isa = PBXBuildFile; fileRef = F6D9734E2740243C000CBF9C /* racing-car.obj */; };
+		F6D9735427402529000CBF9C /* PBR.metal in Sources */ = {isa = PBXBuildFile; fileRef = F6D9735227402529000CBF9C /* PBR.metal */; };
+		F6D9735527402529000CBF9C /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = F6D9735327402529000CBF9C /* Shaders.metal */; };
+		F6D973582740272C000CBF9C /* Textures.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D973572740272C000CBF9C /* Textures.xcassets */; };
+		F6D9735B274028FD000CBF9C /* TestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D9735A274028FD000CBF9C /* TestScene.swift */; };
+		F6E449F2275A02460074DC1A /* ConeTracing.metal in Sources */ = {isa = PBXBuildFile; fileRef = F6E449F1275A02460074DC1A /* ConeTracing.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F61DFA7E27C0F8D4005A9350 /* skeletonWave.usda */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = skeletonWave.usda; path = "../../../../../../Users/maxikai/Projects/met-materials/08-character-animation/projects/final/Animation/Animation/Models/Skeleton/skeletonWave.usda"; sourceTree = "<group>"; };
+		F63B405C27A9BCF90000D9A5 /* RSM.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = RSM.metal; sourceTree = "<group>"; };
+		F63B406127AB93320000D9A5 /* picture8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture8.png; sourceTree = "<group>"; };
+		F63B406227AB93320000D9A5 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		F63B406327AB93320000D9A5 /* wood5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood5.png; sourceTree = "<group>"; };
+		F63B406427AB93320000D9A5 /* leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf.png; sourceTree = "<group>"; };
+		F63B406527AB93320000D9A5 /* fireplace_room.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fireplace_room.obj; sourceTree = "<group>"; };
+		F63B406627AB93320000D9A5 /* fireplace_room.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fireplace_room.mtl; sourceTree = "<group>"; };
+		F63B406F27AB95D60000D9A5 /* salle_de_bain.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = salle_de_bain.mtl; sourceTree = "<group>"; };
+		F63B407127AB95D60000D9A5 /* WoodPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WoodPanel.png; sourceTree = "<group>"; };
+		F63B407227AB95D60000D9A5 /* Label_BaseColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Label_BaseColor.png; sourceTree = "<group>"; };
+		F63B407327AB95D60000D9A5 /* WoodFloor_BaseColor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WoodFloor_BaseColor.jpg; sourceTree = "<group>"; };
+		F63B407427AB95D60000D9A5 /* Wood_BaseColor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood_BaseColor.jpg; sourceTree = "<group>"; };
+		F63B407527AB95D60000D9A5 /* salle_de_bain.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = salle_de_bain.obj; sourceTree = "<group>"; };
+		F63B407E27AB9B550000D9A5 /* CornellBox-Empty-White.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Empty-White.mtl"; sourceTree = "<group>"; };
+		F63B407F27AB9B550000D9A5 /* CornellBox-Mirror.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Mirror.mtl"; sourceTree = "<group>"; };
+		F63B408027AB9B550000D9A5 /* water.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = water.mtl; sourceTree = "<group>"; };
+		F63B408127AB9B550000D9A5 /* CornellBox-Empty-Squashed.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Empty-Squashed.mtl"; sourceTree = "<group>"; };
+		F63B408227AB9B550000D9A5 /* CornellBox-Glossy.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Glossy.mtl"; sourceTree = "<group>"; };
+		F63B408327AB9B550000D9A5 /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copyright.txt; sourceTree = "<group>"; };
+		F63B408427AB9B550000D9A5 /* CornellBox-Empty-RG.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Empty-RG.mtl"; sourceTree = "<group>"; };
+		F63B408527AB9B550000D9A5 /* CornellBox-Water.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Water.obj"; sourceTree = "<group>"; };
+		F63B408627AB9B550000D9A5 /* CornellBox-Glossy-Floor.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Glossy-Floor.mtl"; sourceTree = "<group>"; };
+		F63B408727AB9B550000D9A5 /* CornellBox-Sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Sphere.obj"; sourceTree = "<group>"; };
+		F63B408827AB9B550000D9A5 /* CornellBox-Original.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Original.mtl"; sourceTree = "<group>"; };
+		F63B408927AB9B550000D9A5 /* CornellBox-Empty-CO.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Empty-CO.mtl"; sourceTree = "<group>"; };
+		F63B408A27AB9B550000D9A5 /* CornellBox-Original.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Original.obj"; sourceTree = "<group>"; };
+		F63B408B27AB9B550000D9A5 /* CornellBox-Sphere.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Sphere.mtl"; sourceTree = "<group>"; };
+		F63B408C27AB9B550000D9A5 /* CornellBox-Empty-CO.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Empty-CO.obj"; sourceTree = "<group>"; };
+		F63B408D27AB9B550000D9A5 /* CornellBox-Empty-Squashed.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Empty-Squashed.obj"; sourceTree = "<group>"; };
+		F63B408E27AB9B550000D9A5 /* water.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = water.obj; sourceTree = "<group>"; };
+		F63B408F27AB9B550000D9A5 /* CornellBox-Mirror.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Mirror.obj"; sourceTree = "<group>"; };
+		F63B409027AB9B550000D9A5 /* CornellBox-Empty-White.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Empty-White.obj"; sourceTree = "<group>"; };
+		F63B409127AB9B550000D9A5 /* CornellBox-Glossy.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Glossy.obj"; sourceTree = "<group>"; };
+		F63B409227AB9B550000D9A5 /* CornellBox-Glossy-Floor.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Glossy-Floor.obj"; sourceTree = "<group>"; };
+		F63B409327AB9B550000D9A5 /* CornellBox-Water.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Water.mtl"; sourceTree = "<group>"; };
+		F63B409427AB9B550000D9A5 /* CornellBox-Empty-RG.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CornellBox-Empty-RG.obj"; sourceTree = "<group>"; };
+		F64FF4132741A91800C430E5 /* Jogging.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jogging.usdz; sourceTree = "<group>"; };
+		F65DA6F6279A1131007BFF2A /* round_wooden_table_01_metal_4k.exr */ = {isa = PBXFileReference; lastKnownFileType = file; path = round_wooden_table_01_metal_4k.exr; sourceTree = "<group>"; };
+		F65DA6F7279A1131007BFF2A /* round_wooden_table_01_metal_4k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = round_wooden_table_01_metal_4k.jpg; sourceTree = "<group>"; };
+		F65DA6F8279A1131007BFF2A /* round_wooden_table_01_rough_4k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = round_wooden_table_01_rough_4k.jpg; sourceTree = "<group>"; };
+		F65DA6F9279A1131007BFF2A /* round_wooden_table_01_diff_4k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = round_wooden_table_01_diff_4k.jpg; sourceTree = "<group>"; };
+		F65DA6FA279A1131007BFF2A /* round_wooden_table_01_nor_dx_4k.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = round_wooden_table_01_nor_dx_4k.jpg; sourceTree = "<group>"; };
+		F65DA6FB279A1131007BFF2A /* round_wooden_table_01_nor_gl_4k.exr */ = {isa = PBXFileReference; lastKnownFileType = file; path = round_wooden_table_01_nor_gl_4k.exr; sourceTree = "<group>"; };
+		F65DA6FC279A1131007BFF2A /* round_wooden_table_01_4k.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = round_wooden_table_01_4k.mtl; sourceTree = "<group>"; };
+		F65DA6FD279A1131007BFF2A /* round_wooden_table_01_4k.blend */ = {isa = PBXFileReference; lastKnownFileType = file; path = round_wooden_table_01_4k.blend; sourceTree = "<group>"; };
+		F65DA6FE279A1131007BFF2A /* Table.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Table.obj; sourceTree = "<group>"; };
+		F66D5D51274A9F0100EE2DBD /* Terrains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terrains.swift; sourceTree = "<group>"; };
+		F66D5D54274ABB6E00EE2DBD /* Terrains.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Terrains.metal; sourceTree = "<group>"; };
+		F66D5D5B27508AEA00EE2DBD /* Emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emitter.swift; sourceTree = "<group>"; };
+		F68E51DA273D2B9B00CBF302 /* MetalEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68E51DF273D2B9B00CBF302 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F68E51E1273D2BA400CBF302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F68E51E4273D2BA400CBF302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F68E51E6273D2BA400CBF302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68E51E7273D2BA400CBF302 /* MetalEngine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetalEngine.entitlements; sourceTree = "<group>"; };
+		F68E51EE273D2FB600CBF302 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		F68E51F6273D36B500CBF302 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		F68E51FF273D419E00CBF302 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F68E5202273D41CD00CBF302 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		F68E5205273D41EB00CBF302 /* InputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputController.swift; sourceTree = "<group>"; };
+		F68E5208273D420C00CBF302 /* LocalClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalClasses.swift; sourceTree = "<group>"; };
+		F68E520C273D42CA00CBF302 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		F68E5211273D43B500CBF302 /* MathLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathLibrary.swift; sourceTree = "<group>"; };
+		F68E5215273D4F8300CBF302 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		F68E5218273D552900CBF302 /* Texturable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texturable.swift; sourceTree = "<group>"; };
+		F68E521B273D57EB00CBF302 /* Renderable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderable.swift; sourceTree = "<group>"; };
+		F68E521E273D59B200CBF302 /* Submesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submesh.swift; sourceTree = "<group>"; };
+		F68E5221273D5A5E00CBF302 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		F6932BDC2754CA3D00147982 /* Particles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particles.swift; sourceTree = "<group>"; };
+		F6932BDF2754ED2B00147982 /* Particles.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Particles.metal; sourceTree = "<group>"; };
+		F6932BE42755519500147982 /* Lantern.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lantern.mtl; sourceTree = "<group>"; };
+		F6932BE52755519500147982 /* Lantern.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lantern.obj; sourceTree = "<group>"; };
+		F6932C712756607D00147982 /* SSR.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SSR.metal; sourceTree = "<group>"; };
+		F6932C742757502D00147982 /* ScreenSpaceRayTracing.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ScreenSpaceRayTracing.metal; sourceTree = "<group>"; };
+		F6932C772757661500147982 /* ssrRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ssrRenderer.swift; sourceTree = "<group>"; };
+		F69BC168279DC84F003D9950 /* FXAA.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = FXAA.metal; sourceTree = "<group>"; };
+		F69BC16B279EDDB4003D9950 /* endPost.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = endPost.metal; sourceTree = "<group>"; };
+		F69BC16E27A069FE003D9950 /* HiZ.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = HiZ.metal; sourceTree = "<group>"; };
+		F6A0D5DA27424CC000A00615 /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
+		F6A0D5DD27428C2B00A00615 /* Shadow.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shadow.metal; sourceTree = "<group>"; };
+		F6A0D5E62742DF7900A00615 /* large-plane.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "large-plane.obj"; sourceTree = "<group>"; };
+		F6A0D5E72742DF7900A00615 /* ground.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ground.mtl; sourceTree = "<group>"; };
+		F6A0D5E82742DF7900A00615 /* ground.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ground.obj; sourceTree = "<group>"; };
+		F6A0D5E92742DF7900A00615 /* large-plane.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "large-plane.mtl"; sourceTree = "<group>"; };
+		F6A0D5EF2744E8A000A00615 /* Deffered.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Deffered.metal; sourceTree = "<group>"; };
+		F6A0D5F2274560CF00A00615 /* Composition.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Composition.metal; sourceTree = "<group>"; };
+		F6A0D5F52746251200A00615 /* Skybox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skybox.swift; sourceTree = "<group>"; };
+		F6A0D5F827463B4000A00615 /* Skybox.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Skybox.metal; sourceTree = "<group>"; };
+		F6A0D60027468E0E00A00615 /* irradiance-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "irradiance-6.png"; sourceTree = "<group>"; };
+		F6A0D603274690D000A00615 /* IBL.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = IBL.metal; sourceTree = "<group>"; };
+		F6D97317273E9D35000CBF9C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F6D9731A273E9E68000CBF9C /* Mesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mesh.swift; sourceTree = "<group>"; };
+		F6D97320273EA162000CBF9C /* DebugLight.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = DebugLight.metal; sourceTree = "<group>"; };
+		F6D97324273EA286000CBF9C /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		F6D97328273EA5A3000CBF9C /* AnimationClip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationClip.swift; sourceTree = "<group>"; };
+		F6D9732B273EA80F000CBF9C /* Skeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skeleton.swift; sourceTree = "<group>"; };
+		F6D9732E273EAB98000CBF9C /* AnimationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationComponent.swift; sourceTree = "<group>"; };
+		F6D97331273EBAA8000CBF9C /* TransformComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformComponent.swift; sourceTree = "<group>"; };
+		F6D9733F273FDCEB000CBF9C /* VertexDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertexDescriptor.swift; sourceTree = "<group>"; };
+		F6D97347273FF51B000CBF9C /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		F6D9734D2740243C000CBF9C /* racing-car.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "racing-car.mtl"; sourceTree = "<group>"; };
+		F6D9734E2740243C000CBF9C /* racing-car.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "racing-car.obj"; sourceTree = "<group>"; };
+		F6D9735227402529000CBF9C /* PBR.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = PBR.metal; sourceTree = "<group>"; };
+		F6D9735327402529000CBF9C /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		F6D973572740272C000CBF9C /* Textures.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Textures.xcassets; sourceTree = "<group>"; };
+		F6D9735A274028FD000CBF9C /* TestScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScene.swift; sourceTree = "<group>"; };
+		F6E449F1275A02460074DC1A /* ConeTracing.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ConeTracing.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F68E51D7273D2B9B00CBF302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F61DFA7327C0E2D2005A9350 /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				F61DFA7E27C0F8D4005A9350 /* skeletonWave.usda */,
+			);
+			path = Skeleton;
+			sourceTree = "<group>";
+		};
+		F63B405F27AB93320000D9A5 /* fireplace_room */ = {
+			isa = PBXGroup;
+			children = (
+				F63B406027AB93320000D9A5 /* textures */,
+				F63B406527AB93320000D9A5 /* fireplace_room.obj */,
+				F63B406627AB93320000D9A5 /* fireplace_room.mtl */,
+			);
+			path = fireplace_room;
+			sourceTree = "<group>";
+		};
+		F63B406027AB93320000D9A5 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				F63B406127AB93320000D9A5 /* picture8.png */,
+				F63B406227AB93320000D9A5 /* wood.png */,
+				F63B406327AB93320000D9A5 /* wood5.png */,
+				F63B406427AB93320000D9A5 /* leaf.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		F63B406E27AB95D60000D9A5 /* salle_de_bain */ = {
+			isa = PBXGroup;
+			children = (
+				F63B406F27AB95D60000D9A5 /* salle_de_bain.mtl */,
+				F63B407027AB95D60000D9A5 /* textures */,
+				F63B407527AB95D60000D9A5 /* salle_de_bain.obj */,
+			);
+			path = salle_de_bain;
+			sourceTree = "<group>";
+		};
+		F63B407027AB95D60000D9A5 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				F63B407127AB95D60000D9A5 /* WoodPanel.png */,
+				F63B407227AB95D60000D9A5 /* Label_BaseColor.png */,
+				F63B407327AB95D60000D9A5 /* WoodFloor_BaseColor.jpg */,
+				F63B407427AB95D60000D9A5 /* Wood_BaseColor.jpg */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		F63B407D27AB9B550000D9A5 /* CornellBox (1) */ = {
+			isa = PBXGroup;
+			children = (
+				F63B407E27AB9B550000D9A5 /* CornellBox-Empty-White.mtl */,
+				F63B407F27AB9B550000D9A5 /* CornellBox-Mirror.mtl */,
+				F63B408027AB9B550000D9A5 /* water.mtl */,
+				F63B408127AB9B550000D9A5 /* CornellBox-Empty-Squashed.mtl */,
+				F63B408227AB9B550000D9A5 /* CornellBox-Glossy.mtl */,
+				F63B408327AB9B550000D9A5 /* copyright.txt */,
+				F63B408427AB9B550000D9A5 /* CornellBox-Empty-RG.mtl */,
+				F63B408527AB9B550000D9A5 /* CornellBox-Water.obj */,
+				F63B408627AB9B550000D9A5 /* CornellBox-Glossy-Floor.mtl */,
+				F63B408727AB9B550000D9A5 /* CornellBox-Sphere.obj */,
+				F63B408827AB9B550000D9A5 /* CornellBox-Original.mtl */,
+				F63B408927AB9B550000D9A5 /* CornellBox-Empty-CO.mtl */,
+				F63B408A27AB9B550000D9A5 /* CornellBox-Original.obj */,
+				F63B408B27AB9B550000D9A5 /* CornellBox-Sphere.mtl */,
+				F63B408C27AB9B550000D9A5 /* CornellBox-Empty-CO.obj */,
+				F63B408D27AB9B550000D9A5 /* CornellBox-Empty-Squashed.obj */,
+				F63B408E27AB9B550000D9A5 /* water.obj */,
+				F63B408F27AB9B550000D9A5 /* CornellBox-Mirror.obj */,
+				F63B409027AB9B550000D9A5 /* CornellBox-Empty-White.obj */,
+				F63B409127AB9B550000D9A5 /* CornellBox-Glossy.obj */,
+				F63B409227AB9B550000D9A5 /* CornellBox-Glossy-Floor.obj */,
+				F63B409327AB9B550000D9A5 /* CornellBox-Water.mtl */,
+				F63B409427AB9B550000D9A5 /* CornellBox-Empty-RG.obj */,
+			);
+			path = "CornellBox (1)";
+			sourceTree = "<group>";
+		};
+		F64FF4122741A90500C430E5 /* Mona */ = {
+			isa = PBXGroup;
+			children = (
+				F64FF4132741A91800C430E5 /* Jogging.usdz */,
+			);
+			path = Mona;
+			sourceTree = "<group>";
+		};
+		F65DA6F4279A1131007BFF2A /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				F65DA6F5279A1131007BFF2A /* textures */,
+				F65DA6FC279A1131007BFF2A /* round_wooden_table_01_4k.mtl */,
+				F65DA6FD279A1131007BFF2A /* round_wooden_table_01_4k.blend */,
+				F65DA6FE279A1131007BFF2A /* Table.obj */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		F65DA6F5279A1131007BFF2A /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				F65DA6F6279A1131007BFF2A /* round_wooden_table_01_metal_4k.exr */,
+				F65DA6F7279A1131007BFF2A /* round_wooden_table_01_metal_4k.jpg */,
+				F65DA6F8279A1131007BFF2A /* round_wooden_table_01_rough_4k.jpg */,
+				F65DA6F9279A1131007BFF2A /* round_wooden_table_01_diff_4k.jpg */,
+				F65DA6FA279A1131007BFF2A /* round_wooden_table_01_nor_dx_4k.jpg */,
+				F65DA6FB279A1131007BFF2A /* round_wooden_table_01_nor_gl_4k.exr */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
+		F68E51D1273D2B9B00CBF302 = {
+			isa = PBXGroup;
+			children = (
+				F68E51DC273D2B9B00CBF302 /* MetalEngine */,
+				F68E51DB273D2B9B00CBF302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F68E51DB273D2B9B00CBF302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F68E51DA273D2B9B00CBF302 /* MetalEngine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F68E51DC273D2B9B00CBF302 /* MetalEngine */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0D5FF27468E0100A00615 /* Textures */,
+				F6D9735A274028FD000CBF9C /* TestScene.swift */,
+				F6D973572740272C000CBF9C /* Textures.xcassets */,
+				F6D9734B27402417000CBF9C /* Assets */,
+				F6D97323273EA185000CBF9C /* Animation Support */,
+				F6D9731D273EA11A000CBF9C /* Shaders */,
+				F68E5210273D439900CBF302 /* Utility */,
+				F68E520B273D42BE00CBF302 /* Nodes */,
+				F68E51DF273D2B9B00CBF302 /* ViewController.swift */,
+				F68E51E1273D2BA400CBF302 /* Assets.xcassets */,
+				F68E51E3273D2BA400CBF302 /* Main.storyboard */,
+				F68E51E6273D2BA400CBF302 /* Info.plist */,
+				F68E51E7273D2BA400CBF302 /* MetalEngine.entitlements */,
+				F68E51EE273D2FB600CBF302 /* Renderer.swift */,
+				F68E51F6273D36B500CBF302 /* Common.h */,
+				F68E51FF273D419E00CBF302 /* GameView.swift */,
+				F68E5202273D41CD00CBF302 /* ViewControllerExtension.swift */,
+				F68E5205273D41EB00CBF302 /* InputController.swift */,
+				F68E5208273D420C00CBF302 /* LocalClasses.swift */,
+				F6D9733F273FDCEB000CBF9C /* VertexDescriptor.swift */,
+				F6D97347273FF51B000CBF9C /* Scene.swift */,
+				F6A0D5DA27424CC000A00615 /* Shadows.swift */,
+				F6A0D5F52746251200A00615 /* Skybox.swift */,
+				F6932BDC2754CA3D00147982 /* Particles.swift */,
+				F6932C772757661500147982 /* ssrRenderer.swift */,
+			);
+			path = MetalEngine;
+			sourceTree = "<group>";
+		};
+		F68E520B273D42BE00CBF302 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				F68E520C273D42CA00CBF302 /* Node.swift */,
+				F68E5215273D4F8300CBF302 /* Camera.swift */,
+				F68E5218273D552900CBF302 /* Texturable.swift */,
+				F68E521B273D57EB00CBF302 /* Renderable.swift */,
+				F68E521E273D59B200CBF302 /* Submesh.swift */,
+				F68E5221273D5A5E00CBF302 /* Light.swift */,
+				F6D97317273E9D35000CBF9C /* Model.swift */,
+				F6D9731A273E9E68000CBF9C /* Mesh.swift */,
+				F66D5D51274A9F0100EE2DBD /* Terrains.swift */,
+				F66D5D5B27508AEA00EE2DBD /* Emitter.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		F68E5210273D439900CBF302 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F68E5211273D43B500CBF302 /* MathLibrary.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F6932BE32755517000147982 /* Lantern */ = {
+			isa = PBXGroup;
+			children = (
+				F6932BE42755519500147982 /* Lantern.mtl */,
+				F6932BE52755519500147982 /* Lantern.obj */,
+			);
+			path = Lantern;
+			sourceTree = "<group>";
+		};
+		F6A0D5E52742DF6900A00615 /* Ground */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0D5E72742DF7900A00615 /* ground.mtl */,
+				F6A0D5E82742DF7900A00615 /* ground.obj */,
+				F6A0D5E92742DF7900A00615 /* large-plane.mtl */,
+				F6A0D5E62742DF7900A00615 /* large-plane.obj */,
+			);
+			path = Ground;
+			sourceTree = "<group>";
+		};
+		F6A0D5FF27468E0100A00615 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				F6A0D60027468E0E00A00615 /* irradiance-6.png */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		F6D9731D273EA11A000CBF9C /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				F6D9735227402529000CBF9C /* PBR.metal */,
+				F6D9735327402529000CBF9C /* Shaders.metal */,
+				F6D97320273EA162000CBF9C /* DebugLight.metal */,
+				F6A0D5DD27428C2B00A00615 /* Shadow.metal */,
+				F6A0D5EF2744E8A000A00615 /* Deffered.metal */,
+				F6A0D5F2274560CF00A00615 /* Composition.metal */,
+				F6A0D5F827463B4000A00615 /* Skybox.metal */,
+				F6A0D603274690D000A00615 /* IBL.metal */,
+				F66D5D54274ABB6E00EE2DBD /* Terrains.metal */,
+				F6932BDF2754ED2B00147982 /* Particles.metal */,
+				F6932C712756607D00147982 /* SSR.metal */,
+				F6932C742757502D00147982 /* ScreenSpaceRayTracing.metal */,
+				F6E449F1275A02460074DC1A /* ConeTracing.metal */,
+				F69BC168279DC84F003D9950 /* FXAA.metal */,
+				F69BC16B279EDDB4003D9950 /* endPost.metal */,
+				F69BC16E27A069FE003D9950 /* HiZ.metal */,
+				F63B405C27A9BCF90000D9A5 /* RSM.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		F6D97323273EA185000CBF9C /* Animation Support */ = {
+			isa = PBXGroup;
+			children = (
+				F6D97324273EA286000CBF9C /* Animation.swift */,
+				F6D97328273EA5A3000CBF9C /* AnimationClip.swift */,
+				F6D9732B273EA80F000CBF9C /* Skeleton.swift */,
+				F6D9732E273EAB98000CBF9C /* AnimationComponent.swift */,
+				F6D97331273EBAA8000CBF9C /* TransformComponent.swift */,
+			);
+			path = "Animation Support";
+			sourceTree = "<group>";
+		};
+		F6D9734B27402417000CBF9C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F61DFA7327C0E2D2005A9350 /* Skeleton */,
+				F63B407D27AB9B550000D9A5 /* CornellBox (1) */,
+				F63B406E27AB95D60000D9A5 /* salle_de_bain */,
+				F63B405F27AB93320000D9A5 /* fireplace_room */,
+				F65DA6F4279A1131007BFF2A /* Table */,
+				F6932BE32755517000147982 /* Lantern */,
+				F6A0D5E52742DF6900A00615 /* Ground */,
+				F64FF4122741A90500C430E5 /* Mona */,
+				F6D9734C27402424000CBF9C /* Car */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F6D9734C27402424000CBF9C /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				F6D9734D2740243C000CBF9C /* racing-car.mtl */,
+				F6D9734E2740243C000CBF9C /* racing-car.obj */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F68E51D9273D2B9B00CBF302 /* MetalEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F68E51EA273D2BA400CBF302 /* Build configuration list for PBXNativeTarget "MetalEngine" */;
+			buildPhases = (
+				F68E51D6273D2B9B00CBF302 /* Sources */,
+				F68E51D7273D2B9B00CBF302 /* Frameworks */,
+				F68E51D8273D2B9B00CBF302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalEngine;
+			productName = MetalEngine;
+			productReference = F68E51DA273D2B9B00CBF302 /* MetalEngine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F68E51D2273D2B9B00CBF302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F68E51D9273D2B9B00CBF302 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F68E51D5273D2B9B00CBF302 /* Build configuration list for PBXProject "MetalEngine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F68E51D1273D2B9B00CBF302;
+			productRefGroup = F68E51DB273D2B9B00CBF302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F68E51D9273D2B9B00CBF302 /* MetalEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F68E51D8273D2B9B00CBF302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63B40A027AB9B550000D9A5 /* CornellBox-Empty-CO.mtl in Resources */,
+				F63B406B27AB93320000D9A5 /* fireplace_room.obj in Resources */,
+				F63B40AB27AB9B550000D9A5 /* CornellBox-Empty-RG.obj in Resources */,
+				F65DA701279A1131007BFF2A /* round_wooden_table_01_rough_4k.jpg in Resources */,
+				F63B407927AB95D60000D9A5 /* WoodFloor_BaseColor.jpg in Resources */,
+				F63B406727AB93320000D9A5 /* picture8.png in Resources */,
+				F63B406C27AB93320000D9A5 /* fireplace_room.mtl in Resources */,
+				F63B406827AB93320000D9A5 /* wood.png in Resources */,
+				F65DA706279A1131007BFF2A /* round_wooden_table_01_4k.blend in Resources */,
+				F63B407A27AB95D60000D9A5 /* Wood_BaseColor.jpg in Resources */,
+				F65DA700279A1131007BFF2A /* round_wooden_table_01_metal_4k.jpg in Resources */,
+				F63B40A327AB9B550000D9A5 /* CornellBox-Empty-CO.obj in Resources */,
+				F68E51E2273D2BA400CBF302 /* Assets.xcassets in Resources */,
+				F63B40A227AB9B550000D9A5 /* CornellBox-Sphere.mtl in Resources */,
+				F63B40AA27AB9B550000D9A5 /* CornellBox-Water.mtl in Resources */,
+				F65DA702279A1131007BFF2A /* round_wooden_table_01_diff_4k.jpg in Resources */,
+				F65DA707279A1131007BFF2A /* Table.obj in Resources */,
+				F63B40A827AB9B550000D9A5 /* CornellBox-Glossy.obj in Resources */,
+				F63B409E27AB9B550000D9A5 /* CornellBox-Sphere.obj in Resources */,
+				F6A0D5EC2742DF7900A00615 /* ground.obj in Resources */,
+				F6932BE72755519500147982 /* Lantern.obj in Resources */,
+				F63B40A427AB9B550000D9A5 /* CornellBox-Empty-Squashed.obj in Resources */,
+				F63B40A727AB9B550000D9A5 /* CornellBox-Empty-White.obj in Resources */,
+				F63B409A27AB9B550000D9A5 /* copyright.txt in Resources */,
+				F63B409927AB9B550000D9A5 /* CornellBox-Glossy.mtl in Resources */,
+				F64FF4142741A91800C430E5 /* Jogging.usdz in Resources */,
+				F63B409D27AB9B550000D9A5 /* CornellBox-Glossy-Floor.mtl in Resources */,
+				F68E51E5273D2BA400CBF302 /* Main.storyboard in Resources */,
+				F63B406927AB93320000D9A5 /* wood5.png in Resources */,
+				F63B40A127AB9B550000D9A5 /* CornellBox-Original.obj in Resources */,
+				F63B409627AB9B550000D9A5 /* CornellBox-Mirror.mtl in Resources */,
+				F63B40A527AB9B550000D9A5 /* water.obj in Resources */,
+				F6A0D5ED2742DF7900A00615 /* large-plane.mtl in Resources */,
+				F63B407727AB95D60000D9A5 /* WoodPanel.png in Resources */,
+				F63B406A27AB93320000D9A5 /* leaf.png in Resources */,
+				F65DA6FF279A1131007BFF2A /* round_wooden_table_01_metal_4k.exr in Resources */,
+				F63B409F27AB9B550000D9A5 /* CornellBox-Original.mtl in Resources */,
+				F65DA704279A1131007BFF2A /* round_wooden_table_01_nor_gl_4k.exr in Resources */,
+				F6D973502740243C000CBF9C /* racing-car.obj in Resources */,
+				F6A0D5EB2742DF7900A00615 /* ground.mtl in Resources */,
+				F65DA703279A1131007BFF2A /* round_wooden_table_01_nor_dx_4k.jpg in Resources */,
+				F63B40A927AB9B550000D9A5 /* CornellBox-Glossy-Floor.obj in Resources */,
+				F65DA705279A1131007BFF2A /* round_wooden_table_01_4k.mtl in Resources */,
+				F6D973582740272C000CBF9C /* Textures.xcassets in Resources */,
+				F63B409B27AB9B550000D9A5 /* CornellBox-Empty-RG.mtl in Resources */,
+				F6A0D60127468E0F00A00615 /* irradiance-6.png in Resources */,
+				F63B409C27AB9B550000D9A5 /* CornellBox-Water.obj in Resources */,
+				F63B409827AB9B550000D9A5 /* CornellBox-Empty-Squashed.mtl in Resources */,
+				F6D9734F2740243C000CBF9C /* racing-car.mtl in Resources */,
+				F6932BE62755519500147982 /* Lantern.mtl in Resources */,
+				F63B40A627AB9B550000D9A5 /* CornellBox-Mirror.obj in Resources */,
+				F63B407627AB95D60000D9A5 /* salle_de_bain.mtl in Resources */,
+				F61DFA7F27C0F8D4005A9350 /* skeletonWave.usda in Resources */,
+				F6A0D5EA2742DF7900A00615 /* large-plane.obj in Resources */,
+				F63B409527AB9B550000D9A5 /* CornellBox-Empty-White.mtl in Resources */,
+				F63B407827AB95D60000D9A5 /* Label_BaseColor.png in Resources */,
+				F63B407B27AB95D60000D9A5 /* salle_de_bain.obj in Resources */,
+				F63B409727AB9B550000D9A5 /* water.mtl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F68E51D6273D2B9B00CBF302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68E5216273D4F8300CBF302 /* Camera.swift in Sources */,
+				F6932BE02754ED2B00147982 /* Particles.metal in Sources */,
+				F6A0D5F02744E8A000A00615 /* Deffered.metal in Sources */,
+				F66D5D5C27508AEA00EE2DBD /* Emitter.swift in Sources */,
+				F63B405D27A9BCF90000D9A5 /* RSM.metal in Sources */,
+				F68E51E0273D2B9B00CBF302 /* ViewController.swift in Sources */,
+				F69BC169279DC84F003D9950 /* FXAA.metal in Sources */,
+				F6D9735B274028FD000CBF9C /* TestScene.swift in Sources */,
+				F6A0D5DE27428C2B00A00615 /* Shadow.metal in Sources */,
+				F69BC16F27A069FE003D9950 /* HiZ.metal in Sources */,
+				F68E51EF273D2FB600CBF302 /* Renderer.swift in Sources */,
+				F68E5206273D41EC00CBF302 /* InputController.swift in Sources */,
+				F68E520D273D42CA00CBF302 /* Node.swift in Sources */,
+				F69BC16C279EDDB4003D9950 /* endPost.metal in Sources */,
+				F68E5203273D41CD00CBF302 /* ViewControllerExtension.swift in Sources */,
+				F6D97340273FDCEB000CBF9C /* VertexDescriptor.swift in Sources */,
+				F68E5222273D5A5E00CBF302 /* Light.swift in Sources */,
+				F6932BDD2754CA3D00147982 /* Particles.swift in Sources */,
+				F6D97321273EA162000CBF9C /* DebugLight.metal in Sources */,
+				F6A0D5F3274560CF00A00615 /* Composition.metal in Sources */,
+				F6A0D5F927463B4000A00615 /* Skybox.metal in Sources */,
+				F6D97318273E9D35000CBF9C /* Model.swift in Sources */,
+				F6D97329273EA5A3000CBF9C /* AnimationClip.swift in Sources */,
+				F68E5219273D552900CBF302 /* Texturable.swift in Sources */,
+				F6932C782757661500147982 /* ssrRenderer.swift in Sources */,
+				F6932C752757502D00147982 /* ScreenSpaceRayTracing.metal in Sources */,
+				F6D9732F273EAB98000CBF9C /* AnimationComponent.swift in Sources */,
+				F6D9731B273E9E68000CBF9C /* Mesh.swift in Sources */,
+				F6D97332273EBAA8000CBF9C /* TransformComponent.swift in Sources */,
+				F6E449F2275A02460074DC1A /* ConeTracing.metal in Sources */,
+				F68E5209273D420C00CBF302 /* LocalClasses.swift in Sources */,
+				F6932C722756607E00147982 /* SSR.metal in Sources */,
+				F6D9732C273EA80F000CBF9C /* Skeleton.swift in Sources */,
+				F6A0D604274690D000A00615 /* IBL.metal in Sources */,
+				F6D97325273EA286000CBF9C /* Animation.swift in Sources */,
+				F6A0D5DB27424CC000A00615 /* Shadows.swift in Sources */,
+				F66D5D55274ABB6E00EE2DBD /* Terrains.metal in Sources */,
+				F68E5200273D419E00CBF302 /* GameView.swift in Sources */,
+				F6D97348273FF51B000CBF9C /* Scene.swift in Sources */,
+				F66D5D52274A9F0100EE2DBD /* Terrains.swift in Sources */,
+				F68E521F273D59B200CBF302 /* Submesh.swift in Sources */,
+				F68E521C273D57EB00CBF302 /* Renderable.swift in Sources */,
+				F6D9735427402529000CBF9C /* PBR.metal in Sources */,
+				F68E5212273D43B500CBF302 /* MathLibrary.swift in Sources */,
+				F6A0D5F62746251200A00615 /* Skybox.swift in Sources */,
+				F6D9735527402529000CBF9C /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F68E51E3273D2BA400CBF302 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F68E51E4273D2BA400CBF302 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F68E51E8273D2BA400CBF302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F68E51E9273D2BA400CBF302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F68E51EB273D2BA400CBF302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetalEngine/MetalEngine.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MetalEngine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mxkkk.MetalEngine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = MetalEngine/Common.h;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F68E51EC273D2BA400CBF302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MetalEngine/MetalEngine.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MetalEngine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mxkkk.MetalEngine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = MetalEngine/Common.h;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F68E51D5273D2B9B00CBF302 /* Build configuration list for PBXProject "MetalEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68E51E8273D2BA400CBF302 /* Debug */,
+				F68E51E9273D2BA400CBF302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F68E51EA273D2BA400CBF302 /* Build configuration list for PBXNativeTarget "MetalEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F68E51EB273D2BA400CBF302 /* Debug */,
+				F68E51EC273D2BA400CBF302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F68E51D2273D2B9B00CBF302 /* Project object */;
+}
